@@ -9,13 +9,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!-- Declare the MainActivity in the manifest and set it to launch upon opening this app -->
-        <activity android:name=".ui.MainActivity">
+        <activity android:name=".ui.AndroidMeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
 
         <activity
-            android:name=".ui.AndroidMeActivity"
+            android:name=".ui.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
